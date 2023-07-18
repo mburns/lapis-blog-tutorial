@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Page Six</title>
+<link rel="stylesheet" href="/static/css/saidit.css">
+<main>
+	<%  render('views.fragments.header') %>
+
+	<%  render('views.fragments.sidebar') %>
+	<a name="content"></a>
+	<div class="content" role="main">
+		<% content_for("inner") %>
+	</div>
+	<%  render('views.fragments.footer') %>
+	<script src="/static/js/base.js"> 
+</main>
