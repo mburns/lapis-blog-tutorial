@@ -1,0 +1,16 @@
+{
+	"Lua.runtime.version": "LuaJIT",
+	"Lua.diagnostics.globals": [
+		"ngx"
+	],
+	"Lua.workspace.library": [
+		"${3rd}/OpenResty/library"
+	],
+	// The number of spaces a tab is equal to.
+	"editor.tabSize": 4,
+	// Insert spaces when pressing Tab.
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": true,
+	// When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+	"editor.detectIndentation": false
+}

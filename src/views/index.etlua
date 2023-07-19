@@ -1,8 +1,3 @@
-Welcome.
-
-<%  render('views.fragments.form_submit') %>
-<%  render('views.fragments.subreddits') %>
-
-<p><img src="/static/icons/quarantine-header.png" alt="Under Construction"></p>
+Hello!
 
 <% render('views.fragments.nav') %>
